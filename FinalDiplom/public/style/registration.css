@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.boxReg {
+    background: url(../img/login1.jpg) no-repeat center;
+    display: flex;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vh;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+.boxRegForm {
+    border: 1px solid #cecece;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background: rgb(165 165 165 / 50%);
+    margin-top: 250px;
+    height: 390px;
+}
+
+.boxRegFormName {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxRegFormNameTitle {
+    font-size: 20px;
+}
+
+.boxRegFormInput {
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+.regBoxIndent {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 24px;
+}
+
+.regBoxAcc {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.regBoxBtn {
+    height: 35px;
+    font-size: 24px;
+}
