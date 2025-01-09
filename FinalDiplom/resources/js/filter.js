@@ -1,10 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const productsContainer = document.getElementById('products-list');
-    console.log('productsContainer:', productsContainer);
-    if (!productsContainer) {
-        console.error('Filter elements not found');
-        return;
-    }
+    
     function fetchProducts(filters = {}) {
         console.log('Fetching products with url:', filters);
         fetch(filters)

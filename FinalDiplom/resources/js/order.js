@@ -2,9 +2,6 @@ const modalOverlay = document.getElementById('modalOverlay');
 const closeButton = document.getElementById('closeButton');
 const confirmButton = document.getElementById('confirmButton');
 
-if (!modalOverlay || !closeButton || !confirmButton) {
-}
-
 function pushOrder() {
     confirmButton.addEventListener('click', function () {
         modalOverlay.style.display = 'flex';
